@@ -1,15 +1,17 @@
+{% load i18n %}
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="section-heading text-center">Transportation</h2>
+            <h2 class="section-heading text-center">{% trans "Transportation" %}</h2>
             <hr class="primary">
-            <h3>Getting to the castle</h3>
-            <p>The castle is located in a beautiful area near a small city called Wałbrzych.
-                <br>You can enjoy your time there in the castle parks, guided tours and restaurants.</p>
+            <h3>{% trans "Getting to the castle" %}</h3>
+            <p>{% trans "The castle is located in a beautiful area near a small city called Wałbrzych." %}
+                <br>{% trans "You can enjoy your time there in the castle parks, guided tours and restaurants." %}</p>
             <p>
-                For those coming from abroad, we'll organise transportation from Wroclaw airport / Main Railway Station to Książ.
+                {% trans "For those coming from abroad, we'll organise transportation from Wroclaw airport / Main Railway Station to Książ." %}
             <br>
-                Therefore, please tell us until 20.07 exactly when and where you arrive.
+                {% trans "Therefore, please tell us until 20.07 exactly when and where you arrive." %}
             </p>
         </div>
     </div>
