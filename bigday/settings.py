@@ -110,12 +110,13 @@ AUTH_PASSWORD_VALIDATORS = [
 from django.utils.translation import ugettext_lazy as _
 
 LANGUAGES = (
-    ('en', _('English')),
-    ('pl', _('Polish')),
-    ('ru', _('Russian'))
+    ('en', 'English'),
+    #('pl', 'German'),
+    ('ru', 'Russian'),
+    ('de', 'German')
 )
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
@@ -126,6 +127,7 @@ USE_L10N = True
 USE_TZ = True
 
 LOCALE_PATHS = [os.path.join(BASE_DIR, 'locale')]
+print(LOCALE_PATHS)
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
@@ -145,14 +147,14 @@ DEFAULT_WEDDING_REPLY_EMAIL = 'happilyeverafter@example.com'
 DEFAULT_WEDDING_TEST_EMAIL = DEFAULT_WEDDING_FROM_EMAIL
 
 # This is used in a few places where the names of the couple are used
-BRIDE_AND_GROOM = 'Cory and Rowena'
+BRIDE_AND_GROOM = 'Rauan and Bartek'
 
 # This is used in links in save the date / invitations
-WEDDING_WEBSITE_URL = 'http://thehappycouple.com'
-WEDDING_CC_LIST = []  # put email addresses here if you want to cc someone on all your invitations
+#WEDDING_WEBSITE_URL = 'http://thehappycouple.com'
+#WEDDING_CC_LIST = []  # put email addresses here if you want to cc someone on all your invitations
 
 # change to a real email backend in production
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 try:
     from .localsettings import *
