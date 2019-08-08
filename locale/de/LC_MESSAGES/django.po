@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-08 22:35+0000\n"
+"POT-Creation-Date: 2019-08-08 07:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,48 +22,48 @@ msgstr ""
 msgid "Rauan & Bartek's wedding"
 msgstr "Ślub Rauan i Bartka"
 
-#: bigday/templates/home.html:25
+#: bigday/templates/home.html:34
 msgid "Home"
 msgstr "Do góry"
 
-#: bigday/templates/home.html:28
+#: bigday/templates/home.html:37
 msgid "Event"
 msgstr "Wydarzenie"
 
-#: bigday/templates/home.html:31
+#: bigday/templates/home.html:40
 msgid "Transportaion"
 msgstr "Transport"
 
-#: bigday/templates/home.html:34 bigday/templates/home.html:105
+#: bigday/templates/home.html:43 bigday/templates/home.html:114
 #: bigday/templates/partials/gifts.html:4
 msgid "Registry"
 msgstr "Lista prezentów"
 
-#: bigday/templates/home.html:53
+#: bigday/templates/home.html:62
 msgid "Welcome!"
 msgstr "Witajcie!"
 
-#: bigday/templates/home.html:56
+#: bigday/templates/home.html:65
 msgid "Hello friends and family!"
 msgstr "Drodzy przyjaciele i rodzino!"
 
-#: bigday/templates/home.html:59
+#: bigday/templates/home.html:68
 msgid "Here you can find all the information about the wedding organization."
 msgstr "Znajdziecie tutaj wszystkie informacje związane z organizacją wesela"
 
-#: bigday/templates/home.html:65
+#: bigday/templates/home.html:74
 msgid "Looking forward to seeing everyone soon!"
 msgstr "Bardzo cieszymy się na spotkanie z Wami wszystkimi!"
 
-#: bigday/templates/home.html:67
+#: bigday/templates/home.html:76
 msgid "- Rauan and Bartek"
 msgstr "- Rauan i Bartek"
 
-#: bigday/templates/home.html:81 bigday/templates/partials/event.html:6
+#: bigday/templates/home.html:90 bigday/templates/partials/event.html:6
 msgid "The Event"
 msgstr "Wydarzenie"
 
-#: bigday/templates/home.html:93
+#: bigday/templates/home.html:102
 #: bigday/templates/partials/transportation.html:6
 msgid "Transportation"
 msgstr "Transport"
@@ -96,13 +96,69 @@ msgstr "Niedziela"
 msgid "Brunch"
 msgstr "Brunch"
 
+#: bigday/templates/partials/flowers.html:6
+msgid "Charity instead of flowers"
+msgstr "Dobroczynność zamiast kwiatów"
+
+#: bigday/templates/partials/flowers.html:16
+msgid ""
+"Although flowers are very beautiful, they wither and fade. We're going for a "
+"honeymoon trip almost right after the wedding, so unfortunately we won't "
+"even be able to enjoy their beauty :("
+msgstr ""
+"Mimo że kwiaty są bardzo piękne, z czasem więdną i znikają. Jedziemy na "
+"miesiąc miodowy zaraz po ślubie, więc niestety nie będziemy mogli nacieszyć "
+"się ich pięknem :("
+
+#: bigday/templates/partials/flowers.html:18
+msgid ""
+"Therefore, if you wanted to bring some, we'd like to ask you to donate to "
+msgstr ""
+"Tak więc, jeśli chcieliście podarować jakieś, prosimy zamiast tego złożyć donację do "
+
+#: bigday/templates/partials/flowers.html:20
+msgid "DARA Foundation "
+msgstr "Fundacji DARA."
+
+#: bigday/templates/partials/flowers.html:22
+msgid "instead."
+msgstr " "
+
+#: bigday/templates/partials/flowers.html:24
+msgid ""
+"We'll have a box to collect donations in any currency after the wedding "
+"ceremony and will arrange their safe transport to DARA in Almaty."
+msgstr ""
+"Będziemy mieli puszkę na zbiórkę pieniędzy w każdej walucie, po ceremonii "
+"zaślubin i zorganizujemy dla nich bezpieczny transport do DARA-y w Ałmatach."
+
+#: bigday/templates/partials/flowers.html:27
+msgid ""
+"The mission of the Dara Foundation is the implementation of projects aimed "
+"at helping children’s health facilities, orphanages, and boarding schools "
+"for children with disabilities."
+msgstr ""
+"Misją Fundacji DARA jest wdrażanie projektów celowanych w pomoc dziecięcym "
+"ośrodkom zdrowotnym, sierocińcom i szkołom dla dzieci z "
+"niepełnosprawnościami."
+
+#: bigday/templates/partials/flowers.html:29
+msgid ""
+"Dara carries out its activities to improve living conditions and expand "
+"opportunities for development of orphans, children with disabilities and "
+"sick children."
+msgstr ""
+"DARA przeprowadza działania poprawiające warunki życia i zwiększająca "
+"możliwości rozwoju dla sierot, dzieci niepełnosprawnych i chorych."
+
 #: bigday/templates/partials/gifts.html:7
 msgid ""
 "If you cannot decide on a gift, here's a short list of things that we're "
 "positive they'll serve us well in our marriage."
 msgstr ""
 "Jeżeli nie możecie zdecydować się na prezent, zamieszczamy tutaj krótką "
-"listę rzeczy, co do których jesteśmy pewni, że będa nam dobrze służyły w małżeństwie."
+"listę rzeczy, co do których jesteśmy pewni, że będa nam dobrze służyły w "
+"małżeństwie."
 
 #: bigday/templates/partials/gifts.html:9
 msgid ""
@@ -114,61 +170,6 @@ msgstr ""
 #: bigday/templates/partials/gifts.html:12
 msgid "THE LIST"
 msgstr "LISTA"
-
-#: bigday/templates/partials/gifts.html:16
-msgid "Charity instead of flowers"
-msgstr "Dobroczynność zamiast kwiatów"
-
-#: bigday/templates/partials/gifts.html:26
-msgid ""
-"Although flowers are very beautiful, they wither and fade. We're going for a "
-"honeymoon trip almost right after the wedding, so unfortunately we won't "
-"even be able to enjoy their beauty :("
-msgstr ""
-"Mimo że kwiaty są bardzo piękne, z czasem więdną i znikają. Jedziemy na "
-"miesiąc miodowy zaraz po ślubie, więc niestety nie będziemy mogli nacieszyć "
-"się ich pięknem :("
-
-#: bigday/templates/partials/gifts.html:28
-msgid ""
-"Therefore, if you wanted to bring some, we'd like to ask you to donate to"
-msgstr ""
-"Tak więc, jeśli chcieliście podarować jakieś, prosimy złożyć donację do "
-
-#: bigday/templates/partials/gifts.html:28
-msgid "DARA Foundation"
-msgstr "Fundacji DARA"
-
-#: bigday/templates/partials/gifts.html:28
-msgid "instead."
-msgstr "zamiast."
-
-#: bigday/templates/partials/gifts.html:30
-msgid ""
-"We'll have a box to collect donations in any currency after the wedding "
-"ceremony and will arrange their safe transport to DARA in Almaty."
-msgstr ""
-"Będziemy mieli puszkę na zbiórkę pieniędzy w każdej walucie, po ceremonii "
-"zaślubin i zorganizujemy dla nich bezpieczny transport do DARA-y w Ałmatach."
-
-#: bigday/templates/partials/gifts.html:33
-msgid ""
-"The mission of the Dara Foundation is the implementation of projects aimed "
-"at helping children’s health facilities, orphanages, and boarding schools "
-"for children with disabilities."
-msgstr ""
-"Misją Fundacji DARA jest wdrażanie projektów celowanych w pomoc dziecięcym "
-"ośrodkom zdrowotnym, sierocińcom i szkołom dla dzieci z "
-"niepełnosprawnościami."
-
-#: bigday/templates/partials/gifts.html:35
-msgid ""
-"Dara carries out its activities to improve living conditions and expand "
-"opportunities for development of orphans, children with disabilities and "
-"sick children."
-msgstr ""
-"DARA przeprowadza działania poprawiające warunki życia i zwiększająca "
-"możliwości rozwoju dla sierot, dzieci niepełnosprawnych i chorych."
 
 #: bigday/templates/partials/transportation.html:8
 msgid "Getting to the castle"
