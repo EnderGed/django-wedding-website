@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-08 07:23+0000\n"
+"POT-Creation-Date: 2019-08-25 06:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,89 +18,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bigday/templates/base.html:12 bigday/templates/home.html:19
+#: templates/base.html:12 templates/home.html:19
 msgid "Rauan & Bartek's wedding"
 msgstr "Ślub Rauan i Bartka"
 
-#: bigday/templates/home.html:34
+#: templates/home.html:34
 msgid "Home"
 msgstr "Do góry"
 
-#: bigday/templates/home.html:37
+#: templates/home.html:37
 msgid "Event"
 msgstr "Wydarzenie"
 
-#: bigday/templates/home.html:40
+#: templates/home.html:40
 msgid "Transportaion"
 msgstr "Transport"
 
-#: bigday/templates/home.html:43 bigday/templates/home.html:114
-#: bigday/templates/partials/gifts.html:4
+#: templates/home.html:43 templates/home.html:115
+#: templates/partials/gifts.html:4
 msgid "Registry"
 msgstr "Lista prezentów"
 
-#: bigday/templates/home.html:62
+#: templates/home.html:62
 msgid "Welcome!"
 msgstr "Witajcie!"
 
-#: bigday/templates/home.html:65
+#: templates/home.html:65
 msgid "Hello friends and family!"
 msgstr "Drodzy przyjaciele i rodzino!"
 
-#: bigday/templates/home.html:68
-msgid "Here you can find all the information about the wedding organization."
-msgstr "Znajdziecie tutaj wszystkie informacje związane z organizacją wesela"
+#: templates/home.html:68
+msgid "Thank you all very much for coming and celebrating our wedding with us!"
+msgstr "Dziękujemy Wam wszystkim, za przyjazd i świętowanie z nami naszego ślubu!"
 
-#: bigday/templates/home.html:74
-msgid "Looking forward to seeing everyone soon!"
-msgstr "Bardzo cieszymy się na spotkanie z Wami wszystkimi!"
+#: templates/home.html:69
+msgid ""
+"We have couple of links to share with photos and videos and we'll be adding "
+"more soon, enjoy :)"
+msgstr "Chcieliśmy się podzielić z Wami kilkoma linkami ze zdjęciami i będziemy dodawać inne wkrótce, klikajcie śmiało :)"
 
-#: bigday/templates/home.html:76
+#: templates/home.html:75
+msgid "Love Story by Askhat Shmanov"
+msgstr "Historia Miłosna, zrobiona przez Askhata Shmanova (napisy PL)"
+
+#: templates/home.html:77
 msgid "- Rauan and Bartek"
 msgstr "- Rauan i Bartek"
 
-#: bigday/templates/home.html:90 bigday/templates/partials/event.html:6
+#: templates/home.html:91 templates/partials/event.html:6
 msgid "The Event"
 msgstr "Wydarzenie"
 
-#: bigday/templates/home.html:102
-#: bigday/templates/partials/transportation.html:6
+#: templates/home.html:103 templates/partials/transportation.html:6
 msgid "Transportation"
 msgstr "Transport"
 
-#: bigday/templates/partials/event.html:9
+#: templates/partials/event.html:9
 msgid "Saturday"
 msgstr "Sobota"
 
-#: bigday/templates/partials/event.html:12
+#: templates/partials/event.html:12
 msgid "All the guests meet in front of the castle."
 msgstr "Wszyscy goście spotykają się przed zamkiem."
 
-#: bigday/templates/partials/event.html:14
+#: templates/partials/event.html:14
 msgid "Greeting the newly weds."
 msgstr "Powitanie pary młodej."
 
-#: bigday/templates/partials/event.html:16
+#: templates/partials/event.html:16
 msgid "Wedding ceremony."
 msgstr "Ceremonia zaślubin."
 
-#: bigday/templates/partials/event.html:18
+#: templates/partials/event.html:18
 msgid "Let the ball begin!"
 msgstr "Niech rozpocznie się bal!"
 
-#: bigday/templates/partials/event.html:19
+#: templates/partials/event.html:19
 msgid "Sunday"
 msgstr "Niedziela"
 
-#: bigday/templates/partials/event.html:19
+#: templates/partials/event.html:19
 msgid "Brunch"
 msgstr "Brunch"
 
-#: bigday/templates/partials/flowers.html:6
+#: templates/partials/flowers.html:6
 msgid "Charity instead of flowers"
 msgstr "Dobroczynność zamiast kwiatów"
 
-#: bigday/templates/partials/flowers.html:16
+#: templates/partials/flowers.html:16
 msgid ""
 "Although flowers are very beautiful, they wither and fade. We're going for a "
 "honeymoon trip almost right after the wedding, so unfortunately we won't "
@@ -110,21 +115,22 @@ msgstr ""
 "miesiąc miodowy zaraz po ślubie, więc niestety nie będziemy mogli nacieszyć "
 "się ich pięknem :("
 
-#: bigday/templates/partials/flowers.html:18
+#: templates/partials/flowers.html:18
 msgid ""
 "Therefore, if you wanted to bring some, we'd like to ask you to donate to "
 msgstr ""
-"Tak więc, jeśli chcieliście podarować jakieś, prosimy zamiast tego złożyć donację do "
+"Tak więc, jeśli chcieliście podarować jakieś, prosimy zamiast tego złożyć "
+"donację do "
 
-#: bigday/templates/partials/flowers.html:20
+#: templates/partials/flowers.html:20
 msgid "DARA Foundation "
 msgstr "Fundacji DARA."
 
-#: bigday/templates/partials/flowers.html:22
+#: templates/partials/flowers.html:22
 msgid "instead."
 msgstr " "
 
-#: bigday/templates/partials/flowers.html:24
+#: templates/partials/flowers.html:24
 msgid ""
 "We'll have a box to collect donations in any currency after the wedding "
 "ceremony and will arrange their safe transport to DARA in Almaty."
@@ -132,7 +138,7 @@ msgstr ""
 "Będziemy mieli puszkę na zbiórkę pieniędzy w każdej walucie, po ceremonii "
 "zaślubin i zorganizujemy dla nich bezpieczny transport do DARA-y w Ałmatach."
 
-#: bigday/templates/partials/flowers.html:27
+#: templates/partials/flowers.html:27
 msgid ""
 "The mission of the Dara Foundation is the implementation of projects aimed "
 "at helping children’s health facilities, orphanages, and boarding schools "
@@ -142,7 +148,7 @@ msgstr ""
 "ośrodkom zdrowotnym, sierocińcom i szkołom dla dzieci z "
 "niepełnosprawnościami."
 
-#: bigday/templates/partials/flowers.html:29
+#: templates/partials/flowers.html:29
 msgid ""
 "Dara carries out its activities to improve living conditions and expand "
 "opportunities for development of orphans, children with disabilities and "
@@ -151,7 +157,7 @@ msgstr ""
 "DARA przeprowadza działania poprawiające warunki życia i zwiększająca "
 "możliwości rozwoju dla sierot, dzieci niepełnosprawnych i chorych."
 
-#: bigday/templates/partials/gifts.html:7
+#: templates/partials/gifts.html:7
 msgid ""
 "If you cannot decide on a gift, here's a short list of things that we're "
 "positive they'll serve us well in our marriage."
@@ -160,27 +166,27 @@ msgstr ""
 "listę rzeczy, co do których jesteśmy pewni, że będa nam dobrze służyły w "
 "małżeństwie."
 
-#: bigday/templates/partials/gifts.html:9
+#: templates/partials/gifts.html:9
 msgid ""
 "If you chose one of them, please don't forget to mark it for others to see."
 msgstr ""
 "Jeśli zdecydujecie się na jeden z przedmiotów, nie zapomnijcie proszę "
 "zaznaczyć, żeby inni widzieli wybór."
 
-#: bigday/templates/partials/gifts.html:12
+#: templates/partials/gifts.html:12
 msgid "THE LIST"
 msgstr "LISTA"
 
-#: bigday/templates/partials/transportation.html:8
+#: templates/partials/transportation.html:8
 msgid "Getting to the castle"
 msgstr "Jak dostać się do zamku"
 
-#: bigday/templates/partials/transportation.html:9
+#: templates/partials/transportation.html:9
 msgid ""
 "The castle is located in a beautiful area near a small city called Wałbrzych."
 msgstr "Zamek znajduje się w przepięknej okolicy niedaleko Wałbrzycha."
 
-#: bigday/templates/partials/transportation.html:10
+#: templates/partials/transportation.html:10
 msgid ""
 "You can enjoy your time there in the castle parks, guided tours and "
 "restaurants."
@@ -188,7 +194,7 @@ msgstr ""
 "Możecie spędzić tam miło czas w ogrodach zamkowych, na wycieczkach z "
 "przewodnikiem i w restauracjach."
 
-#: bigday/templates/partials/transportation.html:12
+#: templates/partials/transportation.html:12
 msgid ""
 "For those coming from abroad, we'll organise transportation from Wroclaw "
 "airport / Main Railway Station to Książ."
@@ -196,11 +202,19 @@ msgstr ""
 "Dla wszystkich podróżujących z daleka, zorganizujemy transport z "
 "Wrocławskiego lotniska i dworca głównego do Książa."
 
-#: bigday/templates/partials/transportation.html:14
+#: templates/partials/transportation.html:14
 msgid ""
 "Therefore, please tell us until 20.07 exactly when and where you arrive."
 msgstr ""
 "Prosimy więc, o informację do 20.07 kiedy i gdzie dokładnie przyjeżdżacie."
+
+#~ msgid ""
+#~ "Here you can find all the information about the wedding organization."
+#~ msgstr ""
+#~ "Znajdziecie tutaj wszystkie informacje związane z organizacją wesela"
+
+#~ msgid "Looking forward to seeing everyone soon!"
+#~ msgstr "Bardzo cieszymy się na spotkanie z Wami wszystkimi!"
 
 #~ msgid "Gift list"
 #~ msgstr "Lista prezentów"
