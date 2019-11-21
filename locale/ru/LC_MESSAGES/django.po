@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: bigday/templates/home.html:75
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-25 06:29+0000\n"
+"POT-Creation-Date: 2019-11-21 23:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,94 +21,129 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: templates/base.html:12 templates/home.html:19
+#: bigday/templates/base.html:12 bigday/templates/home.html:19
 msgid "Rauan & Bartek's wedding"
 msgstr "Свадьба Рауан и Бартека"
 
-#: templates/home.html:34
+#: bigday/templates/home.html:34
 msgid "Home"
 msgstr "Главная"
 
-#: templates/home.html:37
+#: bigday/templates/home.html:37
 msgid "Event"
 msgstr "Свадьба"
 
-#: templates/home.html:40
+#: bigday/templates/home.html:40
 msgid "Transportaion"
 msgstr "Транспорт"
 
-#: templates/home.html:43 templates/home.html:115
-#: templates/partials/gifts.html:4
+#: bigday/templates/home.html:43 bigday/templates/home.html:117
+#: bigday/templates/partials/gifts.html:4
 msgid "Registry"
 msgstr "Список подарков"
 
-#: templates/home.html:62
+#: bigday/templates/home.html:62
 msgid "Welcome!"
 msgstr "Добро Пожаловать!"
 
-#: templates/home.html:65
+#: bigday/templates/home.html:65
 msgid "Hello friends and family!"
 msgstr "Всем привет!"
 
-#: templates/home.html:68
+#: bigday/templates/home.html:68
 msgid "Thank you all very much for coming and celebrating our wedding with us!"
 msgstr "Спасибо всем, что пришли и отпраздновали нашу свадьбу с нами!"
 
-#: templates/home.html:69
+#: bigday/templates/home.html:69
 msgid ""
 "We have couple of links to share with photos and videos and we'll be adding "
 "more soon, enjoy :)"
-msgstr "У нас есть несколько ссылок, чтобы поделиться с фотографиями и видео, и мы будем добавлять больше в ближайшее время"
+msgstr ""
+"У нас есть несколько ссылок, чтобы поделиться с фотографиями и видео, и мы "
+"будем добавлять больше в ближайшее время"
 
-#: templates/home.html:75
-msgid "Love Story by Askhat Shmanov"
-msgstr "Love Story by Askhat Shmanov"
+#: bigday/templates/home.html:75
+msgid "Love Story"
+msgstr "Love Story"
 
-#: templates/home.html:77
+#: bigday/templates/home.html:75
+msgid "by Askhat Shmanov"
+msgstr "автор - Асхат Шманов"
+
+#: bigday/templates/home.html:75
+msgid "[Instagram]"
+msgstr "[Instagram]"
+
+#: bigday/templates/home.html:76
+msgid "Photos"
+msgstr "фотографии"
+
+#: bigday/templates/home.html:76
+msgid "by Natalens"
+msgstr "автор - Natalens"
+
+#: bigday/templates/home.html:76 bigday/templates/home.html:77
+msgid "[website]"
+msgstr "[Вебсайт]"
+
+#: bigday/templates/home.html:76
+msgid "(PIN for downloading is 9620)"
+msgstr "(ПИН для скачивания фотографий 9620)"
+
+#: bigday/templates/home.html:77
+msgid "Wedding music video"
+msgstr "Свадебное видео"
+
+#: bigday/templates/home.html:77
+msgid "by Jakub Sasiela"
+msgstr "автор - Jakub Sasiela"
+
+#: bigday/templates/home.html:79
 msgid "- Rauan and Bartek"
 msgstr "- Рауан и Бартек"
 
-#: templates/home.html:91 templates/partials/event.html:6
+#: bigday/templates/home.html:93 bigday/templates/partials/event.html:6
 msgid "The Event"
 msgstr "День Свадьбы"
 
-#: templates/home.html:103 templates/partials/transportation.html:6
+#: bigday/templates/home.html:105
+#: bigday/templates/partials/transportation.html:6
 msgid "Transportation"
 msgstr "Транспорт"
 
-#: templates/partials/event.html:9
+#: bigday/templates/partials/event.html:9
 msgid "Saturday"
 msgstr "Суббота"
 
-#: templates/partials/event.html:12
+#: bigday/templates/partials/event.html:12
 msgid "All the guests meet in front of the castle."
 msgstr "Начало. Встреча гостей перед зданием замка"
 
-#: templates/partials/event.html:14
+#: bigday/templates/partials/event.html:14
 msgid "Greeting the newly weds."
 msgstr "Встреча новобрачных"
 
-#: templates/partials/event.html:16
+#: bigday/templates/partials/event.html:16
 msgid "Wedding ceremony."
 msgstr "Брачная Церемония"
 
-#: templates/partials/event.html:18
+#: bigday/templates/partials/event.html:18
 msgid "Let the ball begin!"
 msgstr "Открытие бала!"
 
-#: templates/partials/event.html:19
+#: bigday/templates/partials/event.html:19
 msgid "Sunday"
 msgstr "Воскресенье"
 
-#: templates/partials/event.html:19
+#: bigday/templates/partials/event.html:19
 msgid "Brunch"
 msgstr "Бранчь"
 
-#: templates/partials/flowers.html:6
+#: bigday/templates/partials/flowers.html:6
 msgid "Charity instead of flowers"
 msgstr "Благотворительность вместо цветов"
 
-#: templates/partials/flowers.html:16
+#: bigday/templates/partials/flowers.html:16
 msgid ""
 "Although flowers are very beautiful, they wither and fade. We're going for a "
 "honeymoon trip almost right after the wedding, so unfortunately we won't "
@@ -116,22 +152,22 @@ msgstr ""
 "Хотя мы и любим цветы, мы не сможем в полной мере ими восхититься, так как "
 "улетаем в свадебное путешествие."
 
-#: templates/partials/flowers.html:18
+#: bigday/templates/partials/flowers.html:18
 msgid ""
 "Therefore, if you wanted to bring some, we'd like to ask you to donate to "
 msgstr ""
 "Поэтому если вы планировали принести цветы на свадьбу, мы хотели бы "
 "попросить вас вместо этого вложить эти деньги в "
 
-#: templates/partials/flowers.html:20
+#: bigday/templates/partials/flowers.html:20
 msgid "DARA Foundation "
 msgstr "Благотворительный Фонд Дара."
 
-#: templates/partials/flowers.html:22
+#: bigday/templates/partials/flowers.html:22
 msgid "instead."
 msgstr " "
 
-#: templates/partials/flowers.html:24
+#: bigday/templates/partials/flowers.html:24
 msgid ""
 "We'll have a box to collect donations in any currency after the wedding "
 "ceremony and will arrange their safe transport to DARA in Almaty."
@@ -139,7 +175,7 @@ msgstr ""
 "Все средства будут собраны в специальную коробку во время свадьбы в любой "
 "валюте, после чего мы отправим их в Казахстан."
 
-#: templates/partials/flowers.html:27
+#: bigday/templates/partials/flowers.html:27
 msgid ""
 "The mission of the Dara Foundation is the implementation of projects aimed "
 "at helping children’s health facilities, orphanages, and boarding schools "
@@ -149,7 +185,7 @@ msgstr ""
 "условий жизни и расширение возможностей развития детей-сирот, детей с "
 "ограниченными "
 
-#: templates/partials/flowers.html:29
+#: bigday/templates/partials/flowers.html:29
 msgid ""
 "Dara carries out its activities to improve living conditions and expand "
 "opportunities for development of orphans, children with disabilities and "
@@ -159,7 +195,7 @@ msgstr ""
 "детские медицинские учреждения, детские дома, а также школы-интернаты для "
 "детей с ограниченными возможностями."
 
-#: templates/partials/gifts.html:7
+#: bigday/templates/partials/gifts.html:7
 msgid ""
 "If you cannot decide on a gift, here's a short list of things that we're "
 "positive they'll serve us well in our marriage."
@@ -167,27 +203,27 @@ msgstr ""
 "Если вы не можете решить по поводу подарка, то мы сделали список вещей "
 "которым мы будем так же рады!"
 
-#: templates/partials/gifts.html:9
+#: bigday/templates/partials/gifts.html:9
 msgid ""
 "If you chose one of them, please don't forget to mark it for others to see."
 msgstr ""
 "если вы выбрали один из них, то пожалуйста, не забудьте его отметить для "
 "других красным цветом"
 
-#: templates/partials/gifts.html:12
+#: bigday/templates/partials/gifts.html:12
 msgid "THE LIST"
 msgstr "Список"
 
-#: templates/partials/transportation.html:8
+#: bigday/templates/partials/transportation.html:8
 msgid "Getting to the castle"
 msgstr "как добраться до замка?"
 
-#: templates/partials/transportation.html:9
+#: bigday/templates/partials/transportation.html:9
 msgid ""
 "The castle is located in a beautiful area near a small city called Wałbrzych."
 msgstr "Замок находится в красивом месте рядом с маленьким городом Wałbrzych."
 
-#: templates/partials/transportation.html:10
+#: bigday/templates/partials/transportation.html:10
 msgid ""
 "You can enjoy your time there in the castle parks, guided tours and "
 "restaurants."
@@ -195,7 +231,7 @@ msgstr ""
 "Вы сможете насладитсья вашим временем в парке при замке, взять тур и изучить "
 "сам замок поближе или вкусно поесть в ресторане на его территории. "
 
-#: templates/partials/transportation.html:12
+#: bigday/templates/partials/transportation.html:12
 msgid ""
 "For those coming from abroad, we'll organise transportation from Wroclaw "
 "airport / Main Railway Station to Książ."
@@ -203,7 +239,7 @@ msgstr ""
 "Для тех, кто прилетает из далека, мы организуем транспорт из аэропорта или "
 "главной станции вокзала"
 
-#: templates/partials/transportation.html:14
+#: bigday/templates/partials/transportation.html:14
 msgid ""
 "Therefore, please tell us until 20.07 exactly when and where you arrive."
 msgstr ""
