@@ -3,13 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#: bigday/templates/home.html:75
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 23:50+0100\n"
+"POT-Creation-Date: 2019-11-25 08:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +36,7 @@ msgstr "Свадьба"
 msgid "Transportaion"
 msgstr "Транспорт"
 
-#: bigday/templates/home.html:43 bigday/templates/home.html:117
+#: bigday/templates/home.html:43 bigday/templates/home.html:118
 #: bigday/templates/partials/gifts.html:4
 msgid "Registry"
 msgstr "Список подарков"
@@ -79,34 +78,39 @@ msgid "Photos"
 msgstr "фотографии"
 
 #: bigday/templates/home.html:76
+msgid "(PIN for downloading is 9620)"
+msgstr "(ПИН для скачивания фотографий 9620)"
+
+#: bigday/templates/home.html:76
 msgid "by Natalens"
 msgstr "автор - Natalens"
 
 #: bigday/templates/home.html:76 bigday/templates/home.html:77
+#: bigday/templates/home.html:78
 msgid "[website]"
 msgstr "[Вебсайт]"
-
-#: bigday/templates/home.html:76
-msgid "(PIN for downloading is 9620)"
-msgstr "(ПИН для скачивания фотографий 9620)"
 
 #: bigday/templates/home.html:77
 msgid "Wedding music video"
 msgstr "Свадебное видео"
 
-#: bigday/templates/home.html:77
+#: bigday/templates/home.html:77 bigday/templates/home.html:78
 msgid "by Jakub Sasiela"
 msgstr "автор - Jakub Sasiela"
 
-#: bigday/templates/home.html:79
+#: bigday/templates/home.html:78
+msgid "Wedding movie"
+msgstr "Свадебный фильм"
+
+#: bigday/templates/home.html:80
 msgid "- Rauan and Bartek"
 msgstr "- Рауан и Бартек"
 
-#: bigday/templates/home.html:93 bigday/templates/partials/event.html:6
+#: bigday/templates/home.html:94 bigday/templates/partials/event.html:6
 msgid "The Event"
 msgstr "День Свадьбы"
 
-#: bigday/templates/home.html:105
+#: bigday/templates/home.html:106
 #: bigday/templates/partials/transportation.html:6
 msgid "Transportation"
 msgstr "Транспорт"
